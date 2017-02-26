@@ -1,6 +1,7 @@
 CREATE TABLE animals (
   id INT PRIMARY KEY AUTO_INCREMENT,
-  name VARCHAR(100) NOT NULL
+  name VARCHAR(100) NOT NULL,
+  view_count INT NOT NULL DEFAULT 0
 );
 
 INSERT INTO animals (name) VALUES ('Aardvark');
